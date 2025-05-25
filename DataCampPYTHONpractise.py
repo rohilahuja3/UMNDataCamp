@@ -98,4 +98,17 @@ import numpy as np
 # print(test1[index2])
 
 ###############################   MODULE 4 - Visualization   #############################
+import matplotlib.pyplot as plt
 
+prices = [170.12, 93.29, 55.28, 145.30, 171.81, 59.50, 100.50]
+prices_sorted = np.sort(prices)
+months = np.arange(1,8)
+# plt.plot(months,prices_sorted,color='red',linestyle='-.')
+plt.scatter(x=months,y=prices_sorted,color='red')
+
+# add labels
+plt.xlabel("Months")
+plt.ylabel("Stock Prices")
+plt.title("PLOT")
+
+plt.show()
