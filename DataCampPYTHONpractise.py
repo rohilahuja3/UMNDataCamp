@@ -39,9 +39,9 @@
 # Import numpy as np
 import numpy as np
 
-# Lists
-prices = [170.12, 93.29, 55.28, 145.30, 171.81, 59.50, 100.50]
-earnings = [9.2, 5.31, 2.41, 5.91, 15.42, 2.51, 6.79]
+# # Lists
+# prices = [170.12, 93.29, 55.28, 145.30, 171.81, 59.50, 100.50]
+# earnings = [9.2, 5.31, 2.41, 5.91, 15.42, 2.51, 6.79]
 
 # # NumPy arrays
 # prices_array = np.array(prices)
@@ -65,6 +65,37 @@ earnings = [9.2, 5.31, 2.41, 5.91, 15.42, 2.51, 6.79]
 # print(type(pe_list1))
 # print(pe_list1)
 
-list2d = np.array([prices, earnings])
-print(list2d)
-print(type(list2d))
+# list2d = np.array([prices, earnings])
+# print(list2d)
+# print(type(list2d))
+# print(list2d.shape)
+# print(list2d.size)
+# print(list2d.sum(axis=1))
+# print(list2d.mean(axis=1))
+# print(np.mean(list2d, axis=1)) # better and more preffered works with all arays - list/ndarray and etc
+# print(list2d.std(axis=1))
+# print(np.sort(list2d[0]))
+# print(np.arange(1,13))
+# list2d_trans = np.transpose(list2d)
+# print(list2d_trans)
+# print(list2d_trans[:,1])
+# print(list2d[1,6])
+
+# months = np.array(['Jan','Feb','Mar','Apr','May','June','July'])
+# index1 = np.array([-1,-2,5,0])
+# bool_index = np.array([True, False, False, True, True, True, True])
+# months_sub = months[index1]
+# print(months_sub)
+# print(type(months_sub))
+# months_sub1 = months[bool_index]
+# print(months_sub1)
+# print(type(months_sub1))
+
+# test1 = np.array([-1, 3, 5, 6, 0, -6, -8, 4])
+# index2 = (test1>=0)
+# print(index2)
+# print(type(index2))
+# print(test1[index2])
+
+###############################   MODULE 4 - Visualization   #############################
+
